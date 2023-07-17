@@ -1,0 +1,22 @@
+a.tag {
+    color: #a6cb90;
+} 
+  
+a.tag:hover { 
+    color: #88d75b;
+}
+  
+.external-link {
+    color: #ec8c93;
+}
+.external-link:hover {
+    color: #e1515a;
+}
+
+.page-ref {
+    color: #8b9fed;
+}
+
+.page-ref:hover {
+    color: #4e6ce4;
+}
