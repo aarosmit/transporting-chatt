@@ -417,4 +417,5 @@
  :feature/enable-journals? false
  :default-home {:page "index"}
  :feature/enable-flashcards? false
- :zotero/settings-v2 nil}
+ :zotero/settings-v2 nil
+ :ui/show-brackets? false}
