@@ -22,3 +22,11 @@ a.tag:hover {
 .page-ref:hover {
     color: #0035ff;
 }
+
+a {
+    color: #4b69d7;
+}
+
+a:hover {
+    color: #0035ff;
+}

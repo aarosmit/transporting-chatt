@@ -9,16 +9,16 @@ a.tag:hover {
 }
   
 .external-link {
-    color: #ec8c93;
+    color: #cb3e49;
 }
 .external-link:hover {
-    color: #e1515a;
+    color: #e30012;
 }
 
 .page-ref {
-    color: #8b9fed;
+    color: #4b69d7;
 }
 
 .page-ref:hover {
-    color: #4e6ce4;
+    color: #0035ff;
 }
