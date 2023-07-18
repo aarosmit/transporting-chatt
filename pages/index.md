@@ -1,3 +1,1 @@
-- # Transporting Chattanooga
-- FAQ
-	- [[What is this?]]
+- [[What is this?]]
