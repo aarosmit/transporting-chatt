@@ -2,7 +2,8 @@
 
 a.tag {
     color: #a6cb90;
-}
+} 
+  
 a.tag:hover { 
     color: #88d75b;
 }
@@ -16,7 +17,9 @@ a.tag:hover {
 
 .page-ref {
     color: #4b69d7;
+    font-weight:900;
 }
+
 .page-ref:hover {
     color: #0035ff;
 }

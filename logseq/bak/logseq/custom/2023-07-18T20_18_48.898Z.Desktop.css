@@ -16,7 +16,12 @@ a.tag:hover {
 
 .page-ref {
     color: #4b69d7;
+    font-weight: bold;
 }
 .page-ref:hover {
     color: #0035ff;
+}
+
+a {
+    text-decoration: none;
 }

@@ -10,6 +10,7 @@ a.tag:hover {
   
 .external-link {
     color: #cb3e49;
+    text-decoration: none;
 }
 .external-link:hover {
     color: #e30012;
@@ -17,16 +18,9 @@ a.tag:hover {
 
 .page-ref {
     color: #4b69d7;
+    font-weight: bold;
 }
 
 .page-ref:hover {
-    color: #0035ff;
-}
-
-a {
-    color: #4b69d7;
-}
-
-a:hover {
     color: #0035ff;
 }

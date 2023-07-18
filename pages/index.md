@@ -7,4 +7,3 @@
 		- Market and Cherokee/Frazier
 	- Groceries (or lack thereof)
 	- Zoning
-	-
