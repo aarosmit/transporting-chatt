@@ -20,3 +20,8 @@ a.tag:hover {
 .page-ref:hover {
     color: #4e6ce4;
 }
+
+html {
+    --ls-block-bullet-border-color: #ffffff00;
+    --ls-block-bullet-color: #ffffff00;
+}

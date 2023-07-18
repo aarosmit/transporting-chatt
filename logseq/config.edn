@@ -177,7 +177,7 @@
  ;; Configure the behavior of pressing Enter in document mode.
  ;; if set to true, pressing Enter will create a new block.
  ;; Default value: false
- :shortcut/doc-mode-enter-for-new-block? false
+ :shortcut/doc-mode-enter-for-new-block? true
 
  ;; Block content larger than `block/content-max-length` will not be searchable
  ;; or editable for performance.
@@ -190,7 +190,7 @@
 
  ;; Display empty bullet points.
  ;; Default value: false
- :ui/show-empty-bullets? false
+ :ui/show-empty-bullets? true
 
  ;; Pre-defined :view function to use with advanced queries.
  :query/views
