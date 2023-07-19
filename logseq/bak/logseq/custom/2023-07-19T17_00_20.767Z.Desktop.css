@@ -14,6 +14,8 @@ a.external-link {
 a.external-link:hover {
     color: #4b69d7;
     text-decoration: none;
+    border: 0 solid #e5e5e5;
+    box-sizing:border-box;
 }
 
 a.page-ref {
