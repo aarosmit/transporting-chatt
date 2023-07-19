@@ -9,7 +9,7 @@
 	- Zoning
 - **INFO**
 	- {{query (property tags info) }}
-	  query-table:: true
-	  query-properties:: [:page :created :updated]
 	  query-sort-by:: page
+	  query-table:: true
 	  query-sort-desc:: true
+	  query-properties:: [:page :created :updated]
