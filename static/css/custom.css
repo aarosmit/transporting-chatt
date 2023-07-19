@@ -7,16 +7,18 @@ a.tag:hover {
     color: #88d75b;
 }
   
-.external-link {
+a.external-link {
     color: #cb3e49;
+    text-decoration: none;
 }
-.external-link:hover {
-    color: #e30012;
+a.external-link:hover {
+    color: #4b69d7;
+    text-decoration: none;
 }
 
-.page-ref {
+a.page-ref {
     color: #4b69d7;
 }
-.page-ref:hover {
-    color: #0035ff;
+a.page-ref:hover {
+    color: #cb3e49;
 }
