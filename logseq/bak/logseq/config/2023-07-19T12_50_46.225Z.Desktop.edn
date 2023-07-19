@@ -172,12 +172,12 @@
  ;;  :editor/down            ["ctrl+j" "down"]
  ;;  :editor/left            ["ctrl+h" "left"]
  ;;  :editor/right           ["ctrl+l" "right"]}
- :shortcuts {}
+ :shortcuts {:plugin.logseq-git/logseq-plugin-git-commit&push "shift+ctrl+up"}
 
  ;; Configure the behavior of pressing Enter in document mode.
  ;; if set to true, pressing Enter will create a new block.
  ;; Default value: false
- :shortcut/doc-mode-enter-for-new-block? false
+ :shortcut/doc-mode-enter-for-new-block? true
 
  ;; Block content larger than `block/content-max-length` will not be searchable
  ;; or editable for performance.
@@ -190,7 +190,7 @@
 
  ;; Display empty bullet points.
  ;; Default value: false
- :ui/show-empty-bullets? false
+ :ui/show-empty-bullets? true
 
  ;; Pre-defined :view function to use with advanced queries.
  :query/views
@@ -413,4 +413,9 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy-MM-dd"
- :publishing/all-pages-public? false}
+ :publishing/all-pages-public? true
+ :feature/enable-journals? false
+ :default-home {:page "index"}
+ :feature/enable-flashcards? false
+ :zotero/settings-v2 nil
+ :ui/show-brackets? false}
