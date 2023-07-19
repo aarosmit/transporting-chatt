@@ -54,7 +54,7 @@
 
  ;; Enable Block timestamps.
  ;; Default value: false
- :feature/enable-block-timestamps? false
+ :feature/enable-block-timestamps? true
 
  ;; Disable accent marks when searching.
  ;; After changing this setting, rebuild the search index by pressing (^C ^S).
@@ -190,7 +190,7 @@
 
  ;; Display empty bullet points.
  ;; Default value: false
- :ui/show-empty-bullets? false
+ :ui/show-empty-bullets? true
 
  ;; Pre-defined :view function to use with advanced queries.
  :query/views
@@ -277,7 +277,7 @@
  ;; With the default value of level 2, block b will be collapsed.
  ;; If the level's value is set to 3, block c will be collapsed.
  ;; Default value: 2
- :ref/default-open-blocks-level 2
+ :ref/default-open-blocks-level 1
 
  ;; Configure the threshold for linked references before collapsing.
  ;; Default value: 100
@@ -311,7 +311,7 @@
 
  ;; Create a page for all properties.
  ;; Default value: true
- :property-pages/enabled? true
+ :property-pages/enabled? false
 
  ;; Properties to exclude from having property pages
  ;; Example usage:
@@ -413,8 +413,8 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy-MM-dd"
+ :ui/show-brackets? false
  :publishing/all-pages-public? true
  :feature/enable-journals? false
- :default-home {:page "contents"}
  :feature/enable-flashcards? false
- :zotero/settings-v2 nil}
+ :default-home {:page "Home"}}

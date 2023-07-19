@@ -1,5 +1,6 @@
-created:: 2023-07-18
-updated:: 2023-07-19
+created:: [[2023-07-18]]
+updated:: [[2023-07-19]]
+status:: draft
 tags:: info
 
 - [Transporting Chattanooga](Home) is my personal blog that advocates for fiscally-responsible and sustainable infrastructure spending and zoning practices, with the side effect of (hopefully) creating a nicer, safer Chattanooga.
