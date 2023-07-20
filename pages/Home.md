@@ -3,7 +3,7 @@
 	- Parking problems
 		- Downtown parking
 		- Minimum parking requirements
-	- Intersection analyses
+	- Intersection analysis
 		- Market and Cherokee/Frazier
 	- Groceries (or lack thereof)
 	- Zoning
