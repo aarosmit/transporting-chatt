@@ -1,5 +1,5 @@
 - **[[What is Transporting Chattanooga?]]**
-- **FUTURE TOPICS**
+- # Future topics
 	- Parking problems
 		- Downtown parking
 		- Minimum parking requirements
@@ -7,7 +7,7 @@
 		- Market and Cherokee/Frazier
 	- Groceries (or lack thereof)
 	- Zoning
-- **INFO**
+- # Info
 	- {{query (property tags info) }}
 	  query-sort-by:: page
 	  query-table:: true

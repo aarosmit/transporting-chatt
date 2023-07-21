@@ -36,18 +36,6 @@ h1.title,
 	border-bottom: none;
 }
 
-.ls-block h1 {
-	font-size: 1.5em;
-}
-
-.ls-block h2 {
-	font-size: 1.3em;
-}
-
-.ls-block h3 {
-	font-size: 1.1em;
-}
-
 .page-properties {
 	font-family: 'Source Code Pro';
 	font-size: 0.8em;

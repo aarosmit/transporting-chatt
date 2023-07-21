@@ -24,6 +24,11 @@ body {
   line-height: var(--ls-font-line-height);
 }
 
+b {
+	font-family: 'Atkinson Hyperlegible';
+	font-weight: 400;
+}
+
 h1.title,
 .ls-block h1,
 .ls-block h2,
@@ -33,19 +38,6 @@ h1.title,
 .ls-block h6 {
 	font-family: 'Atkinson Hyperlegible';
   	font-weight: 400;
-	border-bottom: none;
-}
-
-.ls-block h1 {
-	font-size: 1.5em;
-}
-
-.ls-block h2 {
-	font-size: 1.3em;
-}
-
-.ls-block h3 {
-	font-size: 1.1em;
 }
 
 .page-properties {
