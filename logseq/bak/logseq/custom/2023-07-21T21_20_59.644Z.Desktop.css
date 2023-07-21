@@ -2,30 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-
-:root {
+/* :root {
 	--ls-font-family: 'Source Serif 4';
 	--ls-font-weight: 400;
 	--ls-font-style: normal;
-	--ls-page-text-size: 1em; /* page font size */
-	--ls-page-title-size: 2em; /* page title font size */
-	--ct-code-font-family: var(--ls-font-family); /* use the same font for codeblocks */
+	--ls-page-text-size: 1em;
+	--ls-page-title-size: 2em;
+	--ct-code-font-family: var(--ls-font-family);
 	--ct-inline-code-font-weight: 400;
 	--ct-text-size: var(--ls-page-text-size);
 	--ls-font-line-height: 1.8;
-}
+} */
 
 html,
 body {
-  font-size: var(--ct-text-size);
-  font-family: var(--ls-font-family);
-  overscroll-behavior-y: none;
-  -webkit-font-smoothing: auto;
-  line-height: var(--ls-font-line-height);
-}
-
-b {
-	font-family: 'Atkinson Hyperlegible';
+  /* font-size: var(--ct-text-size); */
+  /* font-family: var(--ls-font-family); */
+  /* overscroll-behavior-y: none; */
+  /* -webkit-font-smoothing: auto; */
+  line-height: 1.8;
 }
 
 h1.title,
@@ -37,12 +32,32 @@ h1.title,
 .ls-block h6 {
 	font-family: 'Atkinson Hyperlegible';
   	font-weight: 400;
+	border-bottom: none;
+	padding-bottom: 0;
+	margin: 0;
+	min-height: 1.5em
+}
+
+.ls-block h1 {
+	font-size: 1.8em;
+}
+
+.ls-block h2 {
+	font-size: 1.5em;
+}
+
+.ls-block h3 {
+	font-size: 1.2em;
 }
 
 .page-properties {
 	font-family: 'Source Code Pro';
 	font-size: 0.8em;
 	line-height: 1.5em;
+}
+
+.CodeMirror {
+	font-size: 1em;
 }
 
 
@@ -53,12 +68,12 @@ a.tag:hover {
     color: #88d75b;
 } */
   
-.external-link {
+/* a.external-link {
     text-decoration: none;
 }
-.external-link:hover {
+a.external-link:hover {
     text-decoration: none;
-}
+} */
 
 /* a.page-ref {
     color: #4b69d7;
