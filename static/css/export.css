@@ -1,24 +1,77 @@
-@import url('https://playerofgames.github.io/logseq-mia-theme/mia_sans.css');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-a.tag {
+
+:root {
+	--ls-font-family: 'Source Serif 4';
+	--ls-font-weight: 400;
+	--ls-font-style: normal;
+	--ls-page-text-size: 1em; /* page font size */
+	--ls-page-title-size: 2em; /* page title font size */
+	--ct-code-font-family: var(--ls-font-family); /* use the same font for codeblocks */
+	--ct-inline-code-font-weight: 400;
+	--ct-text-size: var(--ls-page-text-size);
+	--ls-font-line-height: 1.8;
+}
+
+html,
+body {
+  font-size: var(--ct-text-size);
+  font-family: var(--ls-font-family);
+  overscroll-behavior-y: none;
+  -webkit-font-smoothing: auto;
+  line-height: var(--ls-font-line-height);
+}
+
+h1.title,
+.ls-block h1,
+.ls-block h2,
+.ls-block h3,
+.ls-block h4,
+.ls-block h5,
+.ls-block h6 {
+	font-family: 'Atkinson Hyperlegible';
+  	font-weight: 400;
+	border-bottom: none;
+}
+
+.ls-block h1 {
+	font-size: 1.5em;
+}
+
+.ls-block h2 {
+	font-size: 1.3em;
+}
+
+.ls-block h3 {
+	font-size: 1.1em;
+}
+
+.page-properties {
+	font-family: 'Source Code Pro';
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+
+/* a.tag {
     color: #a6cb90;
-} 
-  
+}
 a.tag:hover { 
     color: #88d75b;
-}
+} */
   
 .external-link {
-    color: #cb3e49;
+    text-decoration: none;
 }
 .external-link:hover {
-    color: #e30012;
+    text-decoration: none;
 }
 
-.page-ref {
+/* a.page-ref {
     color: #4b69d7;
 }
-
-.page-ref:hover {
-    color: #0035ff;
-}
+a.page-ref:hover {
+    color: #cb3e49;
+} */
