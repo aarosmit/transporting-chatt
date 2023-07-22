@@ -38,16 +38,32 @@ h1.title,
 	min-height: 1.5em
 }
 
+h1.title {
+	font-size: 2em;
+	line-height: 1.5;
+}
+
 .ls-block h1 {
 	font-size: 1.8em;
 }
 
 .ls-block h2 {
 	font-size: 1.5em;
+	opacity: 90%;
 }
 
 .ls-block h3 {
 	font-size: 1.2em;
+	opacity: 75%;
+}
+
+.ls-block h4 {
+	font-size: 1.1em;
+	opacity: 60%;
+}
+
+.block-control-wrap {
+	line-height: 1.8em;
 }
 
 .page-properties {
@@ -57,9 +73,13 @@ h1.title,
 }
 
 .code-editor {
-	font-size: 0.9em;
+	font-size: 1em;
 }
 
+.ls-block {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
 
 /* a.tag {
     color: #a6cb90;
