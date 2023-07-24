@@ -66,6 +66,10 @@ h1.title {
 	line-height: 1.8em;
 }
 
+.bullet {
+	opacity: 0%;
+}
+
 .page-properties {
 	font-family: 'Source Code Pro';
 	font-size: 0.8em;
@@ -77,8 +81,8 @@ h1.title {
 }
 
 .ls-block {
-	margin-bottom: 0.25em;
-	margin-top: 0.25em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 
 /* a.tag {

@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
 
 /* :root {
 	--ls-font-family: 'Source Serif 4';
@@ -35,7 +41,7 @@ h1.title,
 	border-bottom: none;
 	padding-bottom: 0;
 	margin: 0;
-	min-height: 1.5em
+	line-height: 1.5;
 }
 
 h1.title {
@@ -73,12 +79,14 @@ h1.title {
 }
 
 .code-editor {
+	font-family: 'Source Code Pro';
 	font-size: 1em;
 }
 
 .ls-block {
-	padding-bottom: 0.5em;
-	padding-top: 0.5em;
+	font-family: 'Source Serif Pro';
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
 }
 
 /* a.tag {
