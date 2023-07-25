@@ -277,7 +277,7 @@
  ;; With the default value of level 2, block b will be collapsed.
  ;; If the level's value is set to 3, block c will be collapsed.
  ;; Default value: 2
- :ref/default-open-blocks-level 2
+ :ref/default-open-blocks-level 1
 
  ;; Configure the threshold for linked references before collapsing.
  ;; Default value: 100
@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["information" "What is Transporting Chattanooga?"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -311,7 +311,7 @@
 
  ;; Create a page for all properties.
  ;; Default value: true
- :property-pages/enabled? true
+ :property-pages/enabled? false
 
  ;; Properties to exclude from having property pages
  ;; Example usage:
@@ -415,7 +415,7 @@
  :journal/page-title-format "yyyy-MM-dd"
  :publishing/all-pages-public? true
  :feature/enable-journals? false
- :default-home {:page "home"}
+ :default-home {:page "Home"}
  :feature/enable-flashcards? false
  :zotero/settings-v2 nil
  :ui/show-brackets? false}
