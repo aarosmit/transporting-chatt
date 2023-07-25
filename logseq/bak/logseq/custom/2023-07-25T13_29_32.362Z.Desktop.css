@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
 
 /* :root {
 	--ls-font-family: 'Source Serif 4';
@@ -79,9 +79,13 @@ h1.title {
 }
 
 .ls-block {
-	font-family: 'Noto Serif';
+	font-family: 'Source Serif Pro';
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
+}
+
+.custom-query {
+	font-family: 'Atkinson Hyperlegible';
 }
 
 /* a.tag {
@@ -98,9 +102,6 @@ a.external-link:hover {
     text-decoration: none;
 } */
 
-/* a.page-ref {
-    color: #4b69d7;
+a.page-ref {
+    font-family: 'Atkinson Hyperlegible';
 }
-a.page-ref:hover {
-    color: #cb3e49;
-} */

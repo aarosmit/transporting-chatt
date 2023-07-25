@@ -1,5 +1,5 @@
-created:: [[2023-07-18]]
-updated:: [[2023-07-19]]
+created:: 2023-07-18
+updated:: 2023-07-25
 status:: draft
 tags:: info
 

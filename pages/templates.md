@@ -1,10 +1,8 @@
-public:: false
-
 - post
   template:: post
   template-including-parent:: false
-	- created:: <% today %>
-	  updated:: <% today %>
+	- created:: 
+	  updated:: 
 	  status:: draft
 	  public:: false
 	  tags::

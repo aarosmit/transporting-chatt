@@ -1,4 +1,4 @@
-- **[[What is Transporting Chattanooga?]]**
+- [[Information]]
 - # Future topics
 	- Parking problems
 		- Downtown parking
