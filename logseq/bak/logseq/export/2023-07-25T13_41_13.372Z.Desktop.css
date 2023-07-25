@@ -73,10 +73,6 @@ h1.title {
 	line-height: 1.5em;
 }
 
-.page-property-value {
-	font-family: 'Source Code Pro';
-}
-
 .code-editor {
 	font-family: 'Source Code Pro';
 	font-size: 1em;
@@ -88,14 +84,23 @@ h1.title {
 	margin-top: 0.5em;
 }
 
-.custom-query {
-	font-family: 'Atkinson Hyperlegible';
+/* a.tag {
+    color: #a6cb90;
 }
+a.tag:hover { 
+    color: #88d75b;
+} */
   
-a.external-link { 
+/* a.external-link {
     text-decoration: none;
 }
+a.external-link:hover {
+    text-decoration: none;
+} */
 
-.page-reference {
-    font-family: 'Atkinson Hyperlegible';
+/* a.page-ref {
+    color: #4b69d7;
 }
+a.page-ref:hover {
+    color: #cb3e49;
+} */
