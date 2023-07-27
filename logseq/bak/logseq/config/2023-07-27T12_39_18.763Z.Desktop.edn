@@ -172,12 +172,12 @@
  ;;  :editor/down            ["ctrl+j" "down"]
  ;;  :editor/left            ["ctrl+h" "left"]
  ;;  :editor/right           ["ctrl+l" "right"]}
- :shortcuts {}
+ :shortcuts {:plugin.logseq-git/logseq-plugin-git-commit&push "shift+ctrl+up"}
 
  ;; Configure the behavior of pressing Enter in document mode.
  ;; if set to true, pressing Enter will create a new block.
  ;; Default value: false
- :shortcut/doc-mode-enter-for-new-block? false
+ :shortcut/doc-mode-enter-for-new-block? true
 
  ;; Block content larger than `block/content-max-length` will not be searchable
  ;; or editable for performance.
@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["what is this?"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -307,7 +307,7 @@
 
  ;; Hide specific block properties.
  ;; Example usage:
- ;; :block-hidden-properties #{:public :icon}
+ :block-hidden-properties #{:public :icon :status :tags :created :updated}
 
  ;; Create a page for all properties.
  ;; Default value: true
@@ -413,8 +413,9 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy-MM-dd"
- :ui/show-brackets? false
  :publishing/all-pages-public? true
  :feature/enable-journals? false
+ :default-home {:page "Home"}
  :feature/enable-flashcards? false
- :default-home {:page "Home"}}
+ :zotero/settings-v2 nil
+ :ui/show-brackets? false}
