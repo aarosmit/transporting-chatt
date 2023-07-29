@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["What is Transporting Chattanooga?" "Home"]
+ :favorites ["what is this?"]
 
  ;; Set flashcards interval.
  ;; Expected value:

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
-
 
 /* :root {
 	--ls-font-family: 'Source Serif 4';
@@ -36,7 +35,7 @@ h1.title,
 	border-bottom: none;
 	padding-bottom: 0;
 	margin: 0;
-	line-height: 1.5;
+	min-height: 1.5em
 }
 
 h1.title {
@@ -67,6 +66,10 @@ h1.title {
 	line-height: 1.8em;
 }
 
+.bullet {
+	opacity: 0%;
+}
+
 .page-properties {
 	font-family: 'Source Code Pro';
 	font-size: 0.8em;
@@ -74,18 +77,12 @@ h1.title {
 }
 
 .code-editor {
-	font-family: 'Source Code Pro';
 	font-size: 1em;
 }
 
 .ls-block {
-	font-family: 'Source Serif Pro';
 	margin-bottom: 0.5em;
 	margin-top: 0.5em;
-}
-
-.custom-query {
-	font-family: 'Atkinson Hyperlegible';
 }
 
 /* a.tag {
@@ -102,6 +99,9 @@ a.external-link:hover {
     text-decoration: none;
 } */
 
-a.page-ref {
-    font-family: 'Atkinson Hyperlegible';
+/* a.page-ref {
+    color: #4b69d7;
 }
+a.page-ref:hover {
+    color: #cb3e49;
+} */
