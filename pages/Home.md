@@ -1,9 +1,6 @@
-- # Transporting Chattanooga
+# Transporting Chattanooga
 	- [[What is this?]]
-	- ## Redevlopment
-		- {{query (property tags redevelopment) }}
-		  query-table:: true
-		  query-properties:: [:page :created :updated]
+	- {{embed [[Redevelopment]]}}
 - ## Future topics
 	- Parking problems
 		- Downtown parking

@@ -73,6 +73,10 @@ h1.title {
 	line-height: 1.5em;
 }
 
+.page-property-value {
+	font-family: 'Source Code Pro';
+}
+
 .code-editor {
 	font-family: 'Source Code Pro';
 	font-size: 1em;
@@ -92,6 +96,6 @@ a.external-link {
     text-decoration: none;
 }
 
-a.page-ref {
+.page-reference {
     font-family: 'Atkinson Hyperlegible';
 }
