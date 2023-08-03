@@ -1,6 +1,7 @@
 # Transporting Chattanooga
 	- [[What is this?]]
-	- {{embed [[Redevelopment]]}}
+- ## Topics
+	- {{embed [[Development]]}}
 - ## Future topics
 	- Parking problems
 		- Downtown parking
