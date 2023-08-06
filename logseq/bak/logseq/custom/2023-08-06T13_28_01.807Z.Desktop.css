@@ -73,6 +73,10 @@ h1.title {
 	line-height: 1.5em;
 }
 
+.page-property-value {
+	font-family: 'Source Code Pro';
+}
+
 .code-editor {
 	font-family: 'Source Code Pro';
 	font-size: 1em;
@@ -87,19 +91,11 @@ h1.title {
 .custom-query {
 	font-family: 'Atkinson Hyperlegible';
 }
-
-.left-sidebar {
-	font-family: 'Atkinson Hyperlegible';
-}
-
-.right-sidebar {
-	font-family: 'Atkinson Hyperlegible';
-}
   
-.external-link { 
+a.external-link { 
     text-decoration: none;
 }
 
-a.page-ref {
+.page-reference {
     font-family: 'Atkinson Hyperlegible';
 }
