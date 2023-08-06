@@ -4,7 +4,8 @@ status:: draft
 public:: false
 tags:: Development
 
-- ![PXL_20230803_205344880.jpg](../assets/PXL_20230803_205344880_1691329340372_0.jpg)
+- ![PXL_20230803_205344880.jpg](../assets/PXL_20230803_205344880_1691357323211_0.jpg)
+  <sub><i>Me, 2023-08-03</i></sub>
 - **Parcel details**
   + This property is 0.6 acres with an assessed value of $477,960.
   + Chattanooga's property tax is paid at a rate of $2.25 per $100 of assessed valuation, **so this property currently pays $10,754.10 per year in property taxes.**
