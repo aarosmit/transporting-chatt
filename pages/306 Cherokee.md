@@ -4,20 +4,21 @@ status:: draft
 public:: false
 tags:: Development
 
+- ## *More of the same...*
 - ![PXL_20230803_205344880.jpg](../assets/PXL_20230803_205344880_1691357323211_0.jpg)
-  <sub><i>Me, 2023-08-03</i></sub>
+  <sub><i>The property of 306 Cherokee (me, 2023-08-03)</i></sub>
 - **Parcel details**
   + This property is 0.6 acres with an assessed value of $477,960.
   + Chattanooga's property tax is paid at a rate of $2.25 per $100 of assessed valuation, **so this property currently pays $10,754.10 per year in property taxes.**
-	- + This property is 0.6 acres with an assessed value of $477,960.
-	  + asdf
-	- There is currently no building on the parcel.
-	- area:: 0
-	  zone:: E-CX-4
-	  assessed_value:: 477960
-	  bldg_size_current:: 0
-	  bldg_size_new:: 7000
-- ## *More of the same*
+  + There is currently no building on the parcel, the previous one-story building was demolished sometime around 2021-2022.
+  + The property is zoned as "E-CX-4", which is a Commercial Mixed Use zone (E-CX). The digit "4" dictates the maximum height of a building on the property, so 4 stories or 60' max.
+  + "E-CX" zones require a building height of "2 stories min."
+- Developer proposal
+  + The [developer's original proposal in February 2021](https://chattanoogatn.viewpointcloud.com/records/296349) included a two-story building, commercial on the first floor and residential on the second for a total square footage of 15,794.
+  + In June 2023, the developer submitted a "[Form Based Code Major Modification Application](https://chattanoogatn.viewpointcloud.com/records/449694)" requesting a variance to reduce the required building stories from two to one. This request was approved in mid-July.
+  + This new proposal includes 7,000 square feet of commercial space, which is slated to become [an urgent care](https://chattanoogatn.viewpointcloud.com/records/447686).
+  + No residential space is included.
+-
 - The property of 306 Cherokee falls under the "Urban Edge" Context Area of Chattanooga's [[Form-Based Code]].
 - It is currently zoned as "E-CX-4," which is a Commercial Mixed Use zone (E-CX). The digit "4" dictates the maximum height of a building on the property, 4 stories or 60' max. E-CX also requires a height of "2 stories min."
 - This is where the story behind this
